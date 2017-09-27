@@ -1,17 +1,16 @@
 {
 	"personalInfo": {
-		"myimg": "image.jpg",
+		"myimg": "profile.png",
 		"fname": "Tiago",
 		"mname": "Carvalho",
 		"lname": "Rocha",
-		"nick":"moghya",
 		"address": {
 			"list": ["Gupta Layout, Mahakali road, Washim, District-Washim, Maharashtra, India 444505 ",
 				"'OM' Jaihind colony, Vishrambag, Sangli District-Sangli, Maharashtra, India 416415"
 			]
 		},
-		"email": "tiago.aziz@gmail.com",
-		"mob": "Ask me by email ;)"
+		"email": " tiago.aziz@gmail.com",
+		"mob": " Ask me by email ;)"
 	},
 	"educations": [
 		{
@@ -592,7 +591,7 @@
 		},
 		{
 			"name": "LinkedIn",
-			"icon": "linkedin.svg",
+			"icon": "programming.svg",
 			"link": "https://www.linkedin.com/in/shubham-sawant-67074a86/",
 			"sn":2
 		},
