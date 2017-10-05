@@ -411,39 +411,46 @@
 			"experience": "It was nice to be a part of Scouting.Arranged camps,hikes and awareness rallies."
 		},
 		{
-			"sn":5,"link":"http://wcepace.in/","workPosition": "Asst. Program Director in Events",
+			"sn":5,"link":"http://wcepace.in/","workPosition": "AcoresPRO",
 			"periodStart": "April 2015",
 			"periodEnd": "March 2016",
-			"organisation": "Personality Advancement Circle of Engineers.",
+			"organisation": "Web Design Intern",
 			"experience": "Learnt how to organize professional events and actvites, how to manage resources and make most out of everything."
 		},
 		{
-			"sn":4,"link":"http://wcepace.in/","workPosition": "Joint. Skills Developer",
-			"periodStart": "April 2016",
-			"periodEnd": "January 2017",
-			"organisation": "Personality Advancement Circle of Engineers.",
-			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs."
+			"sn":4,"link":"http://uns.be/","workPosition": "Full-stack Developer",
+			"periodStart": "October 2013",
+			"periodEnd": "July 2014",
+			"organisation": "Universal Network Solutions",
+			"experience": "Responsible for the whole development (from MySQL database creation to live server deployment) of small scale ERP/CRM using PHP framework (Laravel) for the backend and for the Frontend CSS3, HTML5, Bootstrap, jQuery and vanilla JavaScript."
 		},
 		{
-			"sn":3,"link":"http://wcepace.in/","workPosition": "Cheif. Skills Developer",
-			"periodStart": "January 2017",
-			"periodEnd": "Present",
-			"organisation": "Personality Advancement Circle of Engineers.",
-			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs."
+			"sn":3,"link":"https://www.telecom.pt/","workPosition": "ICT and Developer",
+			"periodStart": "November 2014",
+			"periodEnd": "August 2015",
+			"organisation": "Portugal Telecom",
+			"experience": "Integrated in one of the teams responsible for maintenance, management and organization of Azores Government Network through service desk ticketing platform and phone support.
+Main tasks:
+- Triage of incidents reported by the client and correct assignment;
+- Creation and Configuration of VoiP Phones through Cisco Call Manager;
+- Administration and Configuration of Cisco devices located on the client;
+- Troubleshooting VoiP, routing, switching, access/line circuits;
+- Creation of bandwidth reports using Allot and Scrutinizer platforms;
+- VBA coding to make a small application in access where you could retrieve information about the service desk tickets (ative tickets, tickets that broke the SLA, tickets between dates)"
 		},
 		{
-			"sn":2,"link":"http://pitchteq.com/","workPosition": "Developer Relations",
+			"sn":2,"link":"http://sourced.tech/","workPosition": "Developer Relations",
 			"periodStart": "November 2015",
 			"periodEnd": "July 2016",
 			"organisation": "source{d}",
-			"experience": "A group of college students established a web solutions startup. Worked on an e-commerce project."
+			"experience": "source{d} looks to build the first AI that understands and writes code by applying neural networks to source code from over 17 million software repositories and 6.6 million developers worldwide </br> I was doing interviews to both CTOs and Developers"
 		},
 		{
 			"sn":1,"link":"https://petable.care/","workPosition": "iOS Developer",
 			"periodStart": "August 2016",
 			"periodEnd": "Present",
 			"organisation": "Petable",
-			"experience": "Petable is a mobile and web platform that focus on preventive health care.My job here was to build from scratch their iOS application along with another Dev.We started out in the beginning of September and released in the beggining of January."
+			"experience": "Petable is a mobile and web platform that focus on preventive health care. My job here was to build from scratch their iOS application along with another Dev. We started out in the beginning of September and released in the beggining of January."
 		}
 	],
 	"projects":[
