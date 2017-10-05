@@ -432,18 +432,18 @@
 			"experience": "Good to arrange Meet ups for professional skill development of fellow PACErs."
 		},
 		{
-			"sn":2,"link":"http://pitchteq.com/","workPosition": "Lead PHP Developer",
-			"periodStart": "July 2016",
-			"periodEnd": "Present",
-			"organisation": "PitchTeQ ",
+			"sn":2,"link":"http://pitchteq.com/","workPosition": "Developer Relations",
+			"periodStart": "November 2015",
+			"periodEnd": "July 2016",
+			"organisation": "source{d}",
 			"experience": "A group of college students established a web solutions startup. Worked on an e-commerce project."
 		},
 		{
-			"sn":1,"link":"http://www.praxisinfotech.com/","workPosition": "Web Development Intern",
-			"periodStart": "June 2017",
+			"sn":1,"link":"https://petable.care/","workPosition": "iOS Developer",
+			"periodStart": "August 2016",
 			"periodEnd": "Present",
-			"organisation": "Praxis Infotech ",
-			"experience": "Joined Praxis under TIFAC scheme. Working on a business app using goole map apis."
+			"organisation": "Petable",
+			"experience": "Petable is a mobile and web platform that focus on preventive health care.My job here was to build from scratch their iOS application along with another Dev.We started out in the beginning of September and released in the beggining of January."
 		}
 	],
 	"projects":[
@@ -575,7 +575,7 @@
 			"link":"https://github.com/moghya/toGithub"
 		}
 	],
-	"summary": "Hi, I’m Tiago. I was born in the Azores. I believe in Maths. I seek to learn and try to apply all that I learn in a way that makes life easier. I can design and develop technology solutions. Mathematics, Algorithms, Data Structures  and Machine Learning are my areas of Interest. I'm looking for an Internship where I can learn and grow by using my tech skills and make this world a better place.",
+	"summary": "<p>Hi, I’m Tiago. I was born raised and went to the university in the Azores. </p><p>Software Engineer focused in iOS Development with Swift.</p><p>Currently using MVVM on projects with FRP as much as I know.</p><p> Besides coding, I love to attend to tech events, play music, spearfishing and a good beer with good friends.</p>",
 	"profileLinks": [
 		{
 			"name": "Facebook",
@@ -656,8 +656,8 @@
 
 	],
 	"qoutes": [
-		"If you cannot be a pencil to write someone's happiness, then try to be an erases to erase someone's sorrows.",
-		"Tabs are better than spaces."
+		"You don't need a rockstart, you need a band",
+		"Tabs > Spaces"
 	],
-	"helloText":"<p>Thanks for visiting my webspace.</p><p>Currently I'm studying B.Tech Information Technology  at Walchand College of Engineering Sangli. I do Web development, Machine Learning and Computer Algorithms.I overwhelmingly like C++, Python and Javascript :)</p><p>How can I help you ?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
+	"helloText":"<p>Thanks for the visit</p><p>You can find specific information on the different tabs.</p><p>How can I help you ?</br>I can design, develop and deliver technological solutions to your problems.</p><p>Do we have something in common ?</br>Let's have a talk about it and grow together.</br> We don't have anything in common ?</br>Oh then that's great, please introduce me something that I'm missing.</p>"
 }
