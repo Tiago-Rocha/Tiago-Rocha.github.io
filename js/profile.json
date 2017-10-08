@@ -429,14 +429,7 @@
 			"periodStart": "November 2014",
 			"periodEnd": "August 2015",
 			"organisation": "Portugal Telecom",
-			"experience": "Integrated in one of the teams responsible for maintenance, management and organization of Azores Government Network through service desk ticketing platform and phone support.
-Main tasks:
-- Triage of incidents reported by the client and correct assignment;
-- Creation and Configuration of VoiP Phones through Cisco Call Manager;
-- Administration and Configuration of Cisco devices located on the client;
-- Troubleshooting VoiP, routing, switching, access/line circuits;
-- Creation of bandwidth reports using Allot and Scrutinizer platforms;
-- VBA coding to make a small application in access where you could retrieve information about the service desk tickets (ative tickets, tickets that broke the SLA, tickets between dates)"
+			"experience": "Integrated in one of the teams responsible for maintenance, management and organization of Azores Government Network through service desk)"
 		},
 		{
 			"sn":2,"link":"http://sourced.tech/","workPosition": "Developer Relations",
