@@ -105,8 +105,8 @@ function loadLikes(likes){
 var profile;
 	swal(
 		{
-			title:"Hey curious traveller!",
-			text:"Go ahead and learn a bit more about me :)",
+			title:"Hey there!",
+			text:"I'm still working on this, gimme sometime :)",
 			confirmButtonColor:"#1f1f1f"
 		}
 	);
