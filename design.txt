@@ -2,7 +2,7 @@
 /summary
 /contacts /email /mobile
 /links /hrank /hearth /github /angelco /linkedin /codeforces /facebook /quora /blog /
-/nav /skills /projects /education /work and volunteer /courses and certifications /achivements and awards 
+/nav /skills /projects /work and volunteer /courses and certifications /achivements and awards 
 
 
 

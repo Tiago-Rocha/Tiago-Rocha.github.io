@@ -128,10 +128,10 @@ $.get("js/profile.json",
 		loadLikes(profile.likes);
 		$('#helloText').html(profile.helloText);
 		loadLinks(profile.profileLinks);
-		loadSkills(profile.skills);
+		// loadSkills(profile.skills);
 		loadProjects(profile.projects);
 		loadWorks(profile.works);
-		loadEducations(profile.educations);
+		// loadEducations(profile.educations);
 		console.log(profile);
 });
 
