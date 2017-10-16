@@ -438,136 +438,63 @@
 			"periodStart": "August 2016",
 			"periodEnd": "Present",
 			"organisation": "Petable",
-			"experience": "Petable is a mobile and web platform that focus on preventive health care. My job here was to build from scratch their iOS application along with another Dev. We started out in the beginning of September and released in the beggining of January."
+			"experience": "Petable is a mobile and web platform that focus on preventive health care. My job here was to build from scratch their iOS application along with another Dev. We started out in the beginning of September and released the first version in the beggining of January 2017."
 		}
 	],
 	"projects":[
 		{
-
-			"sn":14, "projectTitle": "Traffic Rules",
-			"periodStart": "July 2015",
-			"periodEnd": "Nov 2015",
-			"toolsUsed": ["Blender", "Movie Maker"],
-			"tags": ["blender", "animation", "3d-modelling", "traffic rules"],
-			"shortInfo": "Its a 3D animation video made using Blender Tool for spreading awareness regarding Traffic rules. Mini project for semester III.",
-			"link":"https://github.com/moghya/Traffic-Rules"
-		},
-		{
-			"sn":13, "projectTitle": "Smart Hospital Management",
-			"periodStart": "Aug 2015",
-			"periodEnd": "Sep 2015",
-			"toolsUsed": ["c++", "qt"],
-			"tags": ["oop", "c++", "qt", "gui", "files"],
-			"shortInfo": "C++ Qt Standalone Application keeps track of every patient and its visits. Data collected can be used for Projects of Data Mining and Machine Learning as data sets.",
-			"link":"https://github.com/moghya/smartHMS"
-		},
-		{
-			"sn":12, "projectTitle": "Seat Allocation",
-			"periodStart": "Dec 2015",
-			"periodEnd": "Dec 2015",
-			"toolsUsed": ["c++"],
-			"tags": ["c++", "gayle-shapely", "ds", "oop"],
-			"shortInfo": "Simulation of college seat allocation process. Choice filling and Seat Allocation are performed. Modified Gayle-Shapely Algorithm implemented. Can be scaled using C++ CGI for deployment.",
-			"link":"https://github.com/moghya/collegeSeatAllocationPrototype"
-		},
-		{
-			"sn":11, "projectTitle": "Online External Examination Portal",
-			"periodStart": "Feb 2016",
-			"periodEnd": "May 2016",
-			"toolsUsed": ["php", "js", "mysql", "html", "css", "bootstrap"],
-			"tags": ["php", "js", "bootstrap", "mysql"],
-			"shortInfo": "It's a web application developed using PHP , MySQL, Bootstrap, JavaScript etc. for conducting practical exams online.",
-			"link":"https://github.com/moghya/external-exam-portal"
-		},
-		{
-			"sn":9, "projectTitle": "LookIn",
-			"periodStart": "Mar 2016",
-			"periodEnd": "May 2016",
-			"toolsUsed": ["python", "sqllite3", "beautifulsoup", "requests"],
-			"tags": ["search engine", "python", "indexing", "web scraping"],
-			"shortInfo": "It's a search engine made using Python, Beautifulsoup . Which crawls downloaded websites and indexes them. After one time indexing it delivers search results ",
-			"link":""
-		},
-		{
-			"sn":3, "projectTitle": "dsalglib ",
-			"periodStart": "May 2016",
+			"sn":1, "projectTitle": "Petable",
+			"periodStart": "August 2016",
 			"periodEnd": "Present",
-			"toolsUsed": ["c++"],
-			"tags": ["ds", "algo", "template", "c++"],
-			"shortInfo": "Its a ready to use data structures and algorithms c++ template library.Many useful data structures and algorithms are implemented . One should just focus on his/her project necessity and dsalglib will take care of data structures and algorithms.",
-			"link":"http://moghya.me/dsalglib/"
+			"toolsUsed": ["Swift,","MVVM,","RxSwift,","Realm"],
+			"tags": ["startup", "product"],
+			"shortInfo": "Developed Petable from scratch. Available in Portuguese, English and Spanish. Followed MVVM architecture along with Reactive approach. Increased ratings from 30 to 150++ and from 4 to 4.6 stars",
+			"link":"https://itunes.apple.com/pt/app/petable/id798660145?l=en&mt=8"
 		},
 		{
-			"sn":1, "projectTitle": "Strategic Location using Facebook Data",
-			"periodStart": "Dec 2016",
-			"periodEnd": "Dec 2016",
-			"toolsUsed": ["python","scikit-learn","ipynb","graph-api"],
-			"tags": ["machine-learning","regression","python"],
-			"shortInfo": "Choosing optimal location for business using data from social media websites contribute largely to the profit.Our System helps business choose optimal location for higher number of check-ins .indirectly helping businesses to increase their profits.We have used to machine learning techniques to help improve our system.",
-			"link":""
-		},
-		{
-			"sn":2, "projectTitle": "prowessIndex",
-			"periodStart": "June 2017",
-			"periodEnd": "June 2017",
-			"toolsUsed": ["python","flask","pandas"],
-			"tags": ["python","data analytics"],
-			"shortInfo": "This is a simple flask web app implementation of a paper that I'm writing 'Making Sense of Numbers'. This paper proposes method for deriving inferences about prowessness of a stduent using attained graded.",
-			"link":"http://novatoscript.pythonanywhere.com/"
-		},
-		{
-			"sn":7, "projectTitle": "FollowScreen",
-			"periodStart": "Jul 2016",
-			"periodEnd": "Jul 2016",
-			"toolsUsed": ["python","pyautogui","tkinter"],
-			"tags": ["screen-recording","python","autmation"],
-			"shortInfo": "Its a screen recorder written in python. It records the screen activities.I used PyAutoGUI and PIL modules for this.Audio capturing is yet to be added.",
-			"link":"https://github.com/moghya/followscreen"
-		},
-		{
-			"sn":8, "projectTitle": "Digital Library Portal",
-			"periodStart": "Feb 2017",
-			"periodEnd": "May 2017",
-			"toolsUsed": ["QuilJs","php","mysql","JavaScript"],
-			"tags": ["webapp","php","mysql","js","materialize"],
-			"shortInfo": "According to the requirements taken Developed a Digital Library Portal for College Library. All of the sections are dynamic and everything is editable using Admin Panel. Used Quill-Js for implementing Editor for Admin. PHP, MySQL is used.",
-			"link":"#"
-		},
-		{
-			"sn":5, "projectTitle": "Book Bank Allotment System",
-			"periodStart": "Jan 2017",
-			"periodEnd": "May 2017",
-			"toolsUsed": ["php","mongodb","js"],
-			"tags": ["mongodb","nosql","php"],
-			"shortInfo": "Developed a Web Application using PHP and MongoDB for Book Bank Allotment done by AGCL library of WCE, Sangli. Automated process of Allocation, it was done manually and use to take almost 15-20 days for completion. Our system does it in a single day.",
-			"link":"#"
-		},
-		{
-			"sn":4, "projectTitle": "Detection and Prevention of Black hole Attack in MANET",
-			"periodStart": "Jul 2016",
-			"periodEnd": "Nov 2016",
-			"toolsUsed": ["c++","ns2","tcl","awk"],
-			"tags": ["c++","blackhole-attack","ns2"],
-			"shortInfo": "It was a Team Project. We made changes in AODV protocol to simulate Black hole attack in Mobile and Adhoc Network​ and later implemented techniques for prevention of the Attack.",
-			"link":"#"
-		},
-		{
-			"sn":10, "projectTitle": "JNV Washim Alumni Portal",
-			"periodStart": "Dec 2015",
-			"periodEnd": "Jan 2016",
-			"toolsUsed": ["php","mysql","js"],
-			"tags": ["webapp","php","mysql","js"],
-			"shortInfo": "Developed a Web Application for Alumni Portal of Jawahar Navodaya Vidyalaya,Washim. It's developed using PHP, HTML, CSS,JavaScript, Bootstrap. All out of scratch. We used MySQL database . Alumni of JNV Washim have to register here with there details and we can searchfor Alumnus with filters.",
-			"link":"http://www.jnvwashimalumni.org/"
-		},
-		{
-			"sn":6, "projectTitle": "toGithub",
+			"sn":2, "projectTitle": "Vetecare",
 			"periodStart": "May 2017",
 			"periodEnd": "Present",
-			"toolsUsed": ["python","PyGithub","requests","beautifulsoup"],
-			"tags": ["scraping","git-api"],
-			"shortInfo": "A python app developed for scraping solutions from Sport Programming Websites and uploding them to Github.",
-			"link":"https://github.com/moghya/toGithub"
+			"toolsUsed": ["Swift,","MVVM,","RxSwift,","Realm"],
+			"tags": ["client", "targets"],
+			"shortInfo": "Vetecare is a version of Petable made with targets that was built for Medicare and their clients. We had to integrate their login system and the veterinarian clinics of their network.",
+			"link":"https://itunes.apple.com/pt/app/vetecare/id1245689386?l=en&mt=8"
+		},
+		{
+			"sn":3, "projectTitle": "DriverChap ",
+			"periodStart": "September 2017",
+			"periodEnd": "September 2017",
+			"toolsUsed": ["Swift,","MVVM,","RxSwift,","Realm"],
+			"tags": ["pixelscamp", "hackathon", "mercedes", "websummit"],
+			"shortInfo": "DriverChap was the winning project of the Mercedes hackathon during PixelsCamp, which granted a WebSummit ticket to each of the team members. Through the application you could control a Mercedes car using their API (close/open doors, blinkers, immobilize car, check location etc). The idea was to integrate sort of parental control defining a profile(radius limit, top speed, etc) for the non-owner drivers.",
+			"link":"https://github.com/Smotko/MOCKPIXEL015"
+		},
+		{
+			"sn":4, "projectTitle": "ARKit-Mario ",
+			"periodStart": "September 2017",
+			"periodEnd": "September 2017",
+			"toolsUsed": ["Swift,","ARKit"],
+			"tags": ["pixelsCamp", "hackathon", "augmentedreality"],
+			"shortInfo": "ARKit-Mario is a ongoing application I'm building to learn more about ARKit and augmented reality in general. I started off displaying a white cube, then used models provided from Apple (which weren't very interesting) and then imported Mario",
+			"link":"https://github.com/Tiago-Rocha/ARKit-Mario"
+		},
+		{
+			"sn":5, "projectTitle": "Silly Song",
+			"periodStart": "August 2016",
+			"periodEnd": "August 2016",
+			"toolsUsed": ["Swift"],
+			"tags": ["udacity", "finaltest", "education"],
+			"shortInfo": "Silly Song was my final test to finish the Udacity iOS Nanodegree. It is a simple iOS application that asks the user name and then changes the first consonant and creates a silly lyric",
+			"link":"https://github.com/Tiago-Rocha/SillySong/"
+		},
+		{
+			"sn":6, "projectTitle": "Pirate Fleet",
+			"periodStart": "May 2016",
+			"periodEnd": "August 2016",
+			"toolsUsed": ["Swift"],
+			"tags": ["udacity", "learning", "education"],
+			"shortInfo": "Pirate Fleet is an iOS Application provided in the Udacity Nanodegree. I had to implement a couple of exercises during the course on top of the already existing code. It was my first contact with iOS development.",
+			"link":"https://github.com/Tiago-Rocha/Pirate-Fleet-2"
 		}
 	],
 	"summary": "<p>Hi, I’m Tiago. I was born raised and went to the university in the Azores. </p><p>Software Engineer focused in iOS Development with Swift.</p><p>Currently using MVVM on projects with FRP as much as I know.</p><p> Besides coding, I love to attend to tech events, play music, spearfishing and a good beer with good friends.</p>",
