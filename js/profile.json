@@ -298,7 +298,6 @@
 			]
 		},
 		{
-
 			"periodStart": "April 2011",
 			"periodEnd": "May 2012",
 			"course": "All India Secondary School Examination",
@@ -448,7 +447,7 @@
 			"periodEnd": "Present",
 			"toolsUsed": ["Swift,","MVVM,","RxSwift,","Realm"],
 			"tags": ["startup", "product"],
-			"shortInfo": "Developed Petable from scratch. Available in Portuguese, English and Spanish. Followed MVVM architecture along with Reactive approach. Increased ratings from 30 to 150++ and from 4 to 4.6 stars",
+			"shortInfo": "Developed Petable from scratch. Available in Portuguese, English and Spanish. Followed MVVM architecture along with Reactive approach. Increased ratings from 30 to 150++ therefore increasing the general rating from 4 to 4.6 stars. This on the Portuguese App store",
 			"link":"https://itunes.apple.com/pt/app/petable/id798660145?l=en&mt=8"
 		},
 		{
@@ -577,7 +576,7 @@
 		}
 
 	],
-	"qoutes": [
+	"quotes": [
 		"You don't need a rockstart, you need a band",
 		"Tabs > Spaces"
 	],

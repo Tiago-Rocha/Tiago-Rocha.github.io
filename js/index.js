@@ -57,7 +57,7 @@ function loadEducations(educations){
 	var i=0,j;
 	var educationsInnerHTML = '';
 	for(i=0;i<educations.length;i++){
-		education = '<div class="row education"><div class="col m6 s12">					<div class="row title">'+educations[i].course+'<hr></div><div class="row">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row">'+educations[i].inst+'</div><div class="row">'+educations[i].board+'</div>		<div class="row">Scored: '+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>Completed following Core courses</div><div class="collapsible-body">';
+		education = '<div class="row education"><div class="col m6 s12">					<div class="row title">'+educations[i].course+'<hr></div><div class="row">'+educations[i].periodStart+'-'+educations[i].periodEnd+'</div><div class="row">'+educations[i].inst+'</div><div class="row">'+educations[i].board+'</div>		<div class="row">Scored: '+educations[i].score+'</div></div><div class="col m6 s12 details"><ul class="collapsible" data-collapsible="accordion"><li><div class="collapsible-header"><i class="material-icons">view_list</i>See more</div><div class="collapsible-body">';
 		var courses = educations[i].courses;
 		courses.sort(function(a,b){
 			return a.sn-b.sn;
@@ -114,13 +114,13 @@ $.get("js/profile.json",
 	function(data, status){
 		profile = data;
 		var pInfo = profile.personalInfo;
-		$('title').html(pInfo.nick+'|Portfolio');
+		$('title').html(pInfo.fname+'|Portfolio');
 		$('#name').html(pInfo.fname/*+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>'*/);
 		$('#image img').attr('src','img/'+pInfo.myimg);
 		$('#contact').html('Call me:'+pInfo.mob+'</br> Mail me:'+pInfo.email);
 		$('#summary p').html(profile.summary);
 		Typed.new('#believe span', {
-			strings: profile.qoutes,
+			strings: profile.quotes,
 			typeSpeed: 0,
 			cursorChar:"",
 			loop:true
@@ -128,10 +128,10 @@ $.get("js/profile.json",
 		loadLikes(profile.likes);
 		$('#helloText').html(profile.helloText);
 		loadLinks(profile.profileLinks);
-		// loadSkills(profile.skills);
+		loadSkills(profile.skills);
 		loadProjects(profile.projects);
 		loadWorks(profile.works);
-		// loadEducations(profile.educations);
+		loadEducations(profile.educations);
 		console.log(profile);
 });
 
