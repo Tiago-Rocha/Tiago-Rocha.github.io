@@ -152,7 +152,7 @@
 			"periodStart": "November 2014",
 			"periodEnd": "August 2015",
 			"organisation": "Portugal Telecom",
-			"experience": "Integrated in one of the teams responsible for maintenance, management and organization of Azores Government Network through service desk."
+			"experience": "Integrated in one of the teams responsible for maintenance, management and organization of Azores Government Network. Developed a dashboard with VBA displaying info about the service provided by the oursourced team."
 		},
 		{
 			"sn":2,"link":"http://sourced.tech/","workPosition": "Developer Relations",
@@ -166,7 +166,7 @@
 			"periodStart": "August 2016",
 			"periodEnd": "Present",
 			"organisation": "Petable",
-			"experience": "Petable is a mobile and web platform that focus on preventive health care. My job here was to build from scratch their iOS application along with another Dev. We started out in the beginning of September and released the first version in the beggining of January 2017."
+			"experience": "Petable is a mobile and web platform that focus on preventive health care. My job here was to build from scratch their iOS application along with another Dev. We started out in the beginning of September and released the first version in the beginning of January 2017."
 		}
 	],
 	"projects":[
@@ -265,7 +265,7 @@
 		},
 		{
 			"name":"Guitar",
-			"icon":"final_guitar.svg",
+			"icon":"soldier.svg",
 			"sn":3
 		},
 		{
