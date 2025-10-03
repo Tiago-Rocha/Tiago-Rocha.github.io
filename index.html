@@ -10,13 +10,30 @@
         box-sizing: border-box;
       }
       
+      /* Force light mode - override all dark mode settings */
+      html {
+        background-color: #ffffff !important;
+        color-scheme: light only;
+      }
+      
+      /* Prevent dark mode media queries from affecting the page */
+      @media (prefers-color-scheme: dark) {
+        html, body, .pdf-container {
+          background-color: #ffffff !important;
+          color: #000000 !important;
+        }
+      }
+      
       body {
-        background-color: #000;
+        background-color: #ffffff !important;
+        color: #000000 !important;
         display: flex;
         justify-content: center;
         align-items: center;
         min-height: 100vh;
         font-family: Arial, sans-serif;
+        /* Force light mode - override system dark mode */
+        color-scheme: light only;
       }
       
       .pdf-container {
@@ -25,6 +42,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #ffffff !important;
       }
       
       .pdf-embed {
@@ -41,13 +59,14 @@
       
       /* Fallback styling */
       .pdf-fallback {
-        color: white;
+        color: #000000 !important;
         text-align: center;
         padding: 20px;
+        background-color: #ffffff !important;
       }
       
       .pdf-fallback a {
-        color: #4CAF50;
+        color: #2196F3 !important;
         text-decoration: none;
         font-size: 18px;
       }
