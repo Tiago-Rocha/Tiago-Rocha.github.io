@@ -4,35 +4,66 @@
     <title>Francisca e Tiago</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: Arial, sans-serif;
+      }
+      
       .pdf-container {
-        width: 100%;
-        max-width: 900px;
-        margin: 20px auto;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       
       .pdf-embed {
         width: 100%;
-        height: 80vh;
-        min-height: 500px;
+        height: 100%;
+        border: none;
+        outline: none;
       }
       
-      @media (max-width: 768px) {
-        .pdf-embed {
-          height: 70vh;
-          min-height: 400px;
-        }
+      /* Hide browser PDF controls for cleaner look */
+      .pdf-embed::-webkit-scrollbar {
+        display: none;
+      }
+      
+      /* Fallback styling */
+      .pdf-fallback {
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      
+      .pdf-fallback a {
+        color: #4CAF50;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      
+      .pdf-fallback a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
   <body>
-    <img class="circle responsive-img" src="assets/seating_plan.jpeg" alt="Seating Plan" loading="lazy">
-    
-    <!-- PDF Display -->
     <div class="pdf-container">
-      <object class="pdf-embed" data="assets/seating_plan.pdf" type="application/pdf">
-        <p>PDF cannot be displayed. <a href="assets/seating_plan.pdf" target="_blank">View PDF</a></p>
-      </object>
+      <embed class="pdf-embed" src="assets/seating_plan.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+      <div class="pdf-fallback">
+        <p>PDF cannot be displayed.</p>
+        <a href="assets/seating_plan.pdf" target="_blank">📄 Open Seating Plan</a>
+      </div>
     </div>
   </body>
 </html>
