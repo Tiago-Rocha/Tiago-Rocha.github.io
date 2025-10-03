@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Seating Plan</title>
+    <title>Francisca e Tiago</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      .pdf-container {
+        width: 100%;
+        max-width: 900px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      }
+      
+      .pdf-embed {
+        width: 100%;
+        height: 80vh;
+        min-height: 500px;
+      }
+      
+      @media (max-width: 768px) {
+        .pdf-embed {
+          height: 70vh;
+          min-height: 400px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <img class="circle responsive-img" src="assets/seating_plan.png" alt="Seating Plan" loading="lazy">
+    <img class="circle responsive-img" src="assets/seating_plan.jpeg" alt="Seating Plan" loading="lazy">
+    
+    <!-- PDF Display -->
+    <div class="pdf-container">
+      <object class="pdf-embed" data="assets/seating_plan.pdf" type="application/pdf">
+        <p>PDF cannot be displayed. <a href="assets/seating_plan.pdf" target="_blank">View PDF</a></p>
+      </object>
+    </div>
   </body>
 </html>
