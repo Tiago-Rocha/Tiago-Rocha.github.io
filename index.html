@@ -59,11 +59,15 @@
   </head>
   <body>
     <div class="pdf-container">
-      <embed class="pdf-embed" src="assets/seating_plan.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
-      <div class="pdf-fallback">
-        <p>PDF cannot be displayed.</p>
-        <a href="assets/seating_plan.pdf" target="_blank">📄 Open Seating Plan</a>
-      </div>
+      <object class="pdf-embed" data="assets/seating_plan.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf">
+        <iframe class="pdf-embed" src="assets/seating_plan.pdf"></iframe>
+        <div class="pdf-fallback">
+          <p>PDF cannot be displayed in your browser.</p>
+          <a href="assets/seating_plan.pdf" target="_blank">📄 View Seating Plan</a>
+          <br><br>
+          <small>Try opening in Chrome, Firefox, or Safari for best results.</small>
+        </div>
+      </object>
     </div>
   </body>
 </html>

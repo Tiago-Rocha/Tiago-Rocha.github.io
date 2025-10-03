@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Test</title>
+</head>
+<body>
+    <h2>PDF Display Tests</h2>
+    
+    <h3>Method 1: Object Tag</h3>
+    <object data="assets/seating_plan.pdf" type="application/pdf" width="600" height="400">
+        <p>Object method failed</p>
+    </object>
+    
+    <h3>Method 2: Embed Tag</h3>
+    <embed src="assets/seating_plan.pdf" type="application/pdf" width="600" height="400">
+    
+    <h3>Method 3: Iframe</h3>
+    <iframe src="assets/seating_plan.pdf" width="600" height="400"></iframe>
+    
+    <h3>Method 4: Direct Link</h3>
+    <a href="assets/seating_plan.pdf" target="_blank">Open PDF in new tab</a>
+    
+    <h3>Debug Info</h3>
+    <p>File path: assets/seating_plan.pdf</p>
+    <p>Check browser console for errors (F12)</p>
+</body>
+</html>
